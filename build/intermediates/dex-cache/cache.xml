@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_b10de8dd3d7aab201d3a81930ce9c2e61c1092f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.1_012ee13506f01237569831365a5d9a252d9faceb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3030d01bf73a0a4c252a0012bb9abbdee6d6d1cf">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_1115bffef3d1a0bbb328984e10c713051cd64d6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.1_d7acad66741015050ece7c610806dfd973175746.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_d686a1bf49366b07106971245aadd1de0e03555d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.1_12b9c82078114c29b9dd245f4c5cbfab8c4cb928.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.1_7f3f11bcf918c5ef63ef80538a9acb048bf1f5eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.4.0_a476da8989cf38ef46e1f0f007fbf4d07d04aa31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.4.0_84c8bc04870a488fb47212302d4265d6bf25122c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_53662d71e789339341e64132dc95ea2fc0cfdf2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.1_f82da3b44670cbb09799848f137cc5eae2d2e560.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0c0dcb3739ce060f972314a0e7262d800d30426f">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/instant-run_a489f9b3bc91930b9a6976e89dd7c78426ab9016.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/Documents/andriod-sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_7db0e568f62fa44e8febd46166bf0c54ac85e066.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.1_419cfea958f818d22513800c1dbe705a8fa7e359.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.4.0_a471e6196440e0dcaabfe1885bbd7097db5f2bbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.1_186ea9fc57d57e01e7061800d4f3e1b25cee20b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.1_a074e3ddc228963680d88aee220e7101e0d8c9f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/Users/Sai-Mac/AndriodStudioProjects/Todos/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.1_2ba6a57d0d570ca5ca986d65af35cb95572cff32.jar" />
+    </item>
+
+</items>

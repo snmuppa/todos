@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ToDoS</string>
+    <string name="action_categories">Categories</string>
+
+    <string-array name="categories_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Family</item>
+        <item>Sports</item>
+        <item>Hobbies</item>
+    </string-array>
+
+</resources>
