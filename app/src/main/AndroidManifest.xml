@@ -28,6 +28,12 @@
 
         <activity android:name=".TodoActivity" />
         <activity android:name=".CategoryActivity"></activity>
+
+        <!-- specifying the content providers -->
+        <provider
+            android:authorities="com.fetherz.saim.todos.todosprovider"
+            android:name=".data.TodosProvider"
+            android:exported="false"/> <!-- content provider is unavailable to other applications-->
     </application>
 
 </manifest>

@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">ToDoS</string>
     <string name="action_categories">Categories</string>
+    <string name="action_delete_all_todos">Delete Todos</string>
+    <string name="action_create_test_data">Insert Test Data</string>
 
     <string-array name="categories_array">
         <item>Home</item>
