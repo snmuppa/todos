@@ -4,12 +4,14 @@
     android:layout_height="wrap_content"
     android:gravity="center_vertical"
     android:padding="4dp">
+
     <ImageView
         android:id="@+id/imageDocIcon"
         android:layout_width="36dp"
         android:layout_height="36dp"
-        android:tint="@color/colorIcons"
-        android:src="@drawable/playlist_play" />
+        android:src="@drawable/playlist_play"
+        android:tint="@color/colorIcons" />
+
     <TextView
         android:id="@+id/tvNote"
         android:layout_width="wrap_content"
@@ -20,6 +22,6 @@
         android:layout_toEndOf="@+id/imageDocIcon"
         android:layout_toRightOf="@+id/imageDocIcon"
         android:maxLines="1"
-        android:text="Dummy Text"
+        android:text="Todo description placeholder"
         android:textSize="18sp" />
 </RelativeLayout>

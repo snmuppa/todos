@@ -45,7 +45,7 @@ public class TodosProvider extends ContentProvider {
     @Override
     public boolean onCreate() {
         dbHelper = new DatabaseHelper(getContext());
-        return false;
+        return true;
     }
 
     @Nullable
@@ -84,7 +84,7 @@ public class TodosProvider extends ContentProvider {
                 cursor = db.query(TodosContract.CategoryEntry.TABLE_NAME, projection, selection, selectionArgs, null, null, sortOrder);
                 break;
             default:
-                throw new IllegalArgumentException("Unknown URI");
+                throw new IllegalArgumentException("Unknown URI" + uri);
         }
 
         cursor.setNotificationUri(getContext().getContentResolver(), uri);
@@ -136,6 +136,10 @@ public class TodosProvider extends ContentProvider {
             case CATEGORIES:
                 return deleteRecord(uri, null, null, TodosContract.CategoryEntry.TABLE_NAME);
             case CATEGORIES_ID:
+                long id = ContentUris.parseId(uri);
+                selection = TodosContract.CategoryEntry._ID + "=?";
+                selectionArgs = new String[] { String.valueOf(id) };
+
                 return deleteRecord(uri, selection, selectionArgs, TodosContract.CategoryEntry.TABLE_NAME);
             default:
                 throw new IllegalArgumentException("Delete: Unknown URI" + uri);
@@ -161,15 +165,7 @@ public class TodosProvider extends ContentProvider {
         switch (match){
             case TODOS:
                 return updateRecord(uri, values, selection, selectionArgs, TodosContract.TodoEntry.TABLE_NAME);
-            case TODOS_ID:
-                selection = TodosContract.TodoEntry._ID + "=?";
-                selectionArgs = new String[] { String.valueOf((ContentUris.parseId(uri))) };
-                return updateRecord(uri, values, selection, selectionArgs, TodosContract.TodoEntry.TABLE_NAME);
             case CATEGORIES:
-                return updateRecord(uri, values, selection, selectionArgs, TodosContract.CategoryEntry.TABLE_NAME);
-            case CATEGORIES_ID:
-                selection = TodosContract.CategoryEntry._ID + "=?";
-                selectionArgs = new String[] { String.valueOf((ContentUris.parseId(uri))) };
                 return updateRecord(uri, values, selection, selectionArgs, TodosContract.CategoryEntry.TABLE_NAME);
             default:
                 throw new IllegalArgumentException("Update: Unknown URI" + uri);

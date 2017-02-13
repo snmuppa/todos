@@ -21,7 +21,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     private static final String TABLE_TODO_CREATE = "CREATE TABLE " + TodoEntry.TABLE_NAME + " (" + TodoEntry._ID + " INTEGER PRIMARY KEY, " + TodoEntry.COLUMN_TEXT + " TEXT, " +
             TodoEntry.COLUMN_CREATED + " TEXT default CURRENT_TIMESTAMP, " + TodoEntry.COLUMN_EXPIRED + " TEXT, " + TodoEntry.COLUMN_DONE + " INTEGER, " + TodoEntry.COLUMN_CATEGORY + " INTEGER, " +
-            " FOREIGN KEY("+ TodoEntry.COLUMN_CATEGORY + ") REFERENCES " + CategoryEntry.TABLE_NAME + "(" + CategoryEntry._ID +") " + ")";
+            " FOREIGN KEY(" + TodoEntry.COLUMN_CATEGORY + ") REFERENCES " + CategoryEntry.TABLE_NAME + "(" + CategoryEntry._ID + ") " + ")";
 
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -36,7 +36,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        //in this case we are basically deleting all the data during upgarde, this case be made smarter if the data has to persist between upgrades
+        //in this case we are basically deleting all the data during upgrade, this can be made smarter if the data has to persist between upgrades
         db.execSQL("DROP TABLE IF EXISTS " + TodoEntry.TABLE_NAME);
         db.execSQL("DROP TABLE IF EXISTS " + CategoryEntry.TABLE_NAME);
         onCreate(db);
