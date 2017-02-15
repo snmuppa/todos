@@ -26,7 +26,9 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [x] List anything else that you can get done to improve the app functionality!
-I will strive to implement calendar widget for completion of dates for todo items.
+* User can modify and add new categories in addition to (High, Medium, Low)
+* User can delete all todos at once if needed
+* A bulk insert of Todos, primarily for testing has been added
 
 ## Video Walkthrough 
 
@@ -42,7 +44,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Sai N Muppa]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
