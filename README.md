@@ -1,6 +1,6 @@
-# Pre-work - *My First App*
+# Pre-work - *Todos App*
 
-**Name of your app** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
+**Todos app** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
 
 Submitted by: **Sai Muppa**
 
@@ -32,7 +32,7 @@ I will strive to implement calendar widget for completion of dates for todo item
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/a/YbzbR' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://raw.githubusercontent.com/snmuppa/todos/master/Demos/Todos_App_Demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
